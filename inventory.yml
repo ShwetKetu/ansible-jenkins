@@ -1,9 +1,8 @@
 ---
 all:
   hosts:
-    localhost:
-  vars: 
-    ansible_connection: local
+    localhost: 
+      ansible_connection: local
   children:
     jenkins:
       hosts:
